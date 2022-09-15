@@ -10,3 +10,4 @@ dist
 /playwright-report/
 /playwright/.cache/
 .eslintcache
+coverage

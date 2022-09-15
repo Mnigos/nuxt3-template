@@ -54,12 +54,7 @@
     },
     {
       "files": ["**/*.vue"],
-      "extends": ["plugin:vue/vue3-recommended"],
-      "rules": {
-        "vue/max-attributes-per-line": "off",
-        "vue/html-self-closing": "off",
-        "vue/singleline-html-element-content-newline": "off"
-      }
+      "extends": ["plugin:vue/vue3-recommended"]
     }
   ],
   "ignorePatterns": [
@@ -72,21 +67,15 @@
     "eqeqeq": "error",
     "prettier/prettier": "warn",
     "prefer-const": "warn",
-    "sonarjs/no-duplicate-string": "off",
-    "no-console": "off",
     "eslint-comments/no-unused-disable": "error",
     "@typescript-eslint/no-unused-vars": "error",
     // empty functions are helpful for defining default values
     "@typescript-eslint/no-empty-function": "off",
     "unicorn/prefer-node-protocol": "off",
-    "import-helpers/order-imports": "off",
-    // ignore only until https://github.com/sindresorhus/eslint-plugin-unicorn/pull/1628 is opened
     "unicorn/filename-case": [
       "error",
       {
         "cases": {
-          "camelCase": true,
-          "pascalCase": true,
           "kebabCase": true
         },
         "ignore": ["/^$/", "README.md$"]

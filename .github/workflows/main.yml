@@ -74,7 +74,7 @@ jobs:
       - name: Lint 🐱
         run: yarn lint
 
-  lint:
+  test:
     name: 'Test 🧪'
     needs: build
     runs-on: ubuntu-latest

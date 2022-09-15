@@ -62,7 +62,12 @@
       }
     }
   ],
-  "ignorePatterns": ["**/node_modules/**", "**/dist/**", "**/cypress/**"],
+  "ignorePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/cypress/**",
+    "README.md"
+  ],
   "rules": {
     "eqeqeq": "error",
     "prettier/prettier": "warn",

@@ -2,8 +2,6 @@
 
 Nuxt 3 template repository
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
-
 ## Used Technologies
 
 <a href="https://www.typescriptlang.org">
@@ -90,7 +88,7 @@ yarn test:watch
 # Run tests in UI mode
 yarn test:ui
 
-# Run tests in coverage mode
+# Run tests with coverage report
 yarn test:coverage
 
 # Run e2e tests
@@ -118,5 +116,3 @@ Locally preview production build:
 ```bash
 yarn preview
 ```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.

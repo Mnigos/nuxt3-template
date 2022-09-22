@@ -64,6 +64,12 @@
         "**/?(*.)+(spec|test).[jt]s?(x)"
       ],
       "extends": ["plugin:testing-library/vue"]
+    },
+    {
+      "files": ["**/pages/**/*.vue"],
+      "rules": {
+        "vue/multi-word-component-names": "off"
+      }
     }
   ],
   "ignorePatterns": [

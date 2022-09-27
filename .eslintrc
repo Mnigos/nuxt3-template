@@ -6,7 +6,12 @@
     "defineProps": "readonly",
     "defineEmits": "readonly",
     "defineExpose": "readonly",
-    "withDefaults": "readonly"
+    "withDefaults": "readonly",
+    "onMounted": "readonly",
+    "onUnmounted": "readonly",
+    "onBeforeMount": "readonly",
+    "onBeforeUpdate": "readonly",
+    "onBeforeUnmount": "readonly"
   },
   "env": {
     "browser": true,

@@ -7,7 +7,7 @@
     "*.js": "$(capture).js.map, $(capture).*.ts, $(capture).*.js",
     "*.vue": "$(capture).js, , $(capture).*.ts, $(capture).*.js, $(capture).*.vue",
     "tsconfig.json": "tsconfig.*.json",
-    ".env": ".env.*",
+    ".env": "*.env",
     "package.json": "package-lock.json, .npmrc, yarn.lock, .yarnrc"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",

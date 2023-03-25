@@ -60,7 +60,13 @@ Nuxt 3 template repository
 
 ### Setup
 
-Make sure to install the dependencies:
+Make sure to have installed right version of Node.js in nvm
+
+```bash
+nvm use
+```
+
+Don't forget to install the dependencies:
 
 ```bash
 yarn install
@@ -97,7 +103,7 @@ yarn test:e2e
 
 ### Development Server
 
-Start the development server on http://localhost:3000
+Start the development server on <http://localhost:3000>
 
 ```bash
 yarn dev
